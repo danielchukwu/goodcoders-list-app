@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div>
 
-      <main className='main flex items-start'>
-        <div className='rounded-2xl overflow-hidden bg-red-500'>
-          <Image src={'/laptop.jpg'} alt='laptop' width={800} height={50} className='object-fill'/>
+      <main className='main md:flex md:items-start'>
+        <div className='rounded-2xl overflow-hidden h-80 md:h-auto  bg-red-500'>
+          <Image src={'/laptop.jpg'} alt='laptop' width={700} height={300} className='object-cover w-full h-full'/>
         </div>
         <div className='pl-10 pt-10'>
           <h1 className='text-xl font-bold text-gray-900'>Homepage</h1>
